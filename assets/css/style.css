@@ -48,6 +48,7 @@ body {
 
 .heading {
     width: 97%;
+    max-width: 650px;
     text-align: center;
     margin: 2rem auto;
 }
@@ -166,11 +167,18 @@ body {
         flex-wrap: wrap;
         max-width: 1000px;
     }
+
+    .heading {
+        max-width: 400px;
+    }
 }
 
 @media (min-width: 1200px) {
     .cards-container {
         max-width: 1500px;
+    }
+    .heading {
+        max-width: 400px;
     }
 }
 
