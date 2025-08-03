@@ -82,6 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     gap: 1rem;
 
     border-radius: 12px;
@@ -134,7 +135,7 @@ body {
 
 .card-image {
     background: #000;
-    width: 100%;
+    width: 96%;
     height: 50%;
     max-height: 200px;
     border-radius: 9px;
